@@ -1,10 +1,13 @@
-import ads
 import json
-import numpy as np
 import re
 import textwrap
 
+import ads
+import numpy as np
+
 class MyPapers:
+    """a class to manage searching for my publications from ADS"""
+
     def __init__(self):
         p = list(ads.SearchQuery(author="Zingale, M",
                                  max_pages=10,
@@ -20,6 +23,8 @@ class MyPapers:
         self.num = len(self.mypapers)
 
     def cv_list(self):
+        """print out a bibliography of papers, most recent first"""
+
         mystr = ""
         for p in self.mypapers:
             mystr += "{}\n".format(p.title[0])
@@ -45,12 +50,16 @@ class MyPapers:
 
 
 class Cites:
+    """a class to manage the number of citations of papers"""
     def __init__(self, mypapers):
         # sort account to number of citations
         self.mypapers = sorted(mypapers, key=lambda q: q.citation_count, reverse=True)
 
 
     def cite_report(self):
+        """generate a table, ordered by cites, of the papers with number of
+        cites"""
+
         num_cites = np.sum(np.array([q.citation_count for q in self.mypapers]))
         print("number of citations = ", num_cites)
 
@@ -71,10 +80,12 @@ class Cites:
         """
 
         # first read in the old cites
-        with open("cites.json", "r") as f:
-            cites_json = f.read()
-
-        old_cites = json.loads(cites_json)
+        try:
+            with open("cites.json", "r") as f:
+                cites_json = f.read()
+            old_cites = json.loads(cites_json)
+        except IOError:
+            old_cites = {}
 
         # now create a dict of the cites and update the stored JSON
         cites = {}
@@ -95,10 +106,12 @@ class Cites:
                         cites[key][1] - old_cites[key][1],
                         cites[key][0]))
 
+def doit():
+    """the main driver -- check out cites"""
+    myp = MyPapers()
+    cites = Cites(myp.mypapers)
+    #cites.cite_report()
+    cites.compare_and_update()
 
-myp = MyPapers()
-cites = Cites(myp.mypapers)
-#cites.cite_report()
-cites.compare_and_update()
-
-
+if __name__ == "__main__":
+    doit()

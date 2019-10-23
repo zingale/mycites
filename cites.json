@@ -1,7 +1,7 @@
 {
     "2000ApJS..131..273F": [
         "FLASH: An Adaptive Mesh Hydrodynamics Code for Modeling Astrophysical Thermonuclear Flashes",
-        1255
+        1254
     ],
     "2004PhFl...16.1668D": [
         "A comparative study of the turbulent Rayleigh-Taylor instability using high-resolution three-dimensional numerical simulations: The Alpha-Group collaboration",
@@ -95,13 +95,13 @@
         "On the Cellular Structure of Carbon Detonations",
         19
     ],
-    "2017PrPNP..94....1A": [
-        "White paper on nuclear astrophysics and low energy nuclear physics Part 1: Nuclear astrophysics",
-        18
-    ],
     "2003ApJ...595..955D": [
         "The Response of Model and Astrophysical Thermonuclear Flames to Curvature and Stretch",
         18
+    ],
+    "2017PrPNP..94....1A": [
+        "White paper on nuclear astrophysics and low energy nuclear physics Part 1: Nuclear astrophysics",
+        17
     ],
     "2014ApJ...788..115M": [
         "Multidimensional Modeling of Type I X-Ray Bursts. II. Two-dimensional Convection in a Mixed H/He Accretor",
@@ -147,12 +147,12 @@
         "Low Mach Number Modeling of Convection in Helium Shells on Sub-Chandrasekhar White Dwarfs. II. Bulk Properties of Simple Models",
         9
     ],
-    "2010arXiv1008.2801A": [
-        "MAESTRO, CASTRO, and SEDONA -- Petascale Codes for Astrophysical Applications",
-        8
-    ],
     "2007JPhCS..78a2081W": [
         "Type Ia supernovae",
+        8
+    ],
+    "2010arXiv1008.2801A": [
+        "MAESTRO, CASTRO, and SEDONA -- Petascale Codes for Astrophysical Applications",
         8
     ],
     "2015arXiv150102776I": [
@@ -343,10 +343,6 @@
         "pyro: Python-based tutorial for computational methods for hydrodynamics",
         0
     ],
-    "2017AAS...22924206B": [
-        "Black Widow Pulsar radiation hydrodynamics simulation using Castro: Methodology",
-        0
-    ],
     "2017AAS...22924405W": [
         "Three-Dimensional Simulations of the Convective Urca Process in Pre-Supernova White Dwarfs",
         0
@@ -355,12 +351,20 @@
         "Maestro and Castro: Simulation Codes for Astrophysical Flows",
         0
     ],
+    "2017AAS...22924206B": [
+        "Black Widow Pulsar radiation hydrodynamics simulation using Castro: Methodology",
+        0
+    ],
     "2019AAS...23324528H": [
         "Modelling rotating massive stars with MAESTROeX",
         0
     ],
     "2019arXiv190803661Z": [
         "Improved Coupling of Hydrodynamics and Nuclear Reactions via Spectral Deferred Corrections",
+        0
+    ],
+    "2019arXiv190803634F": [
+        "MAESTROeX: A Massively Parallel Low Mach Number Astrophysical Solver",
         0
     ],
     "2019AAS...23338101B": [
@@ -377,10 +381,6 @@
     ],
     "2011ascl.soft05010A": [
         "CASTRO: Multi-dimensional Eulerian AMR Radiation-hydrodynamics Code",
-        0
-    ],
-    "2019arXiv190803634F": [
-        "MAESTROeX: A Massively Parallel Low Mach Number Astrophysical Solver",
         0
     ],
     "2000AAS...197.8103F": [
@@ -437,10 +437,6 @@
     ],
     "2013AAS...22144402M": [
         "From Convection to Ignition and Beyond: A (Computational) Story of M<SUP>Ch</SUP> SNIa",
-        0
-    ],
-    "2000APS..DPPBP1078C": [
-        "Astrophysically Relevant Instabilities at a Decelerating Interface.",
         0
     ],
     "2000AAS...197.8102C": [
@@ -523,8 +519,8 @@
         "On Heavy Element Enrichment in Classical Novae",
         0
     ],
-    "2000arxt.confE..67Z": [
-        "2-dimensional Helium Detonations on the Surface of Neutron Stars",
+    "2000APS..DPPBP1078C": [
+        "Astrophysically Relevant Instabilities at a Decelerating Interface.",
         0
     ],
     "2000AAS...196.3902F": [
@@ -573,6 +569,10 @@
     ],
     "2000PhDT.........3Z": [
         "Helium detonations on neutron stars",
+        0
+    ],
+    "2000arxt.confE..67Z": [
+        "2-dimensional Helium Detonations on the Surface of Neutron Stars",
         0
     ],
     "2000AAS...197.8104Z": [
