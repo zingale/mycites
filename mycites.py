@@ -87,6 +87,17 @@ class Cites:
         except IOError:
             old_cites = {}
 
+        num_cites = np.sum(np.array([q.citation_count for q in self.mypapers]))
+        print("number of citations = ", num_cites)
+
+        h_index = 0
+        for n, p in enumerate(self.mypapers):
+            if p.citation_count > n+1:
+                h_index = n + 1
+            else:
+                exit
+        print("h-index = ", h_index)
+
         # now create a dict of the cites and update the stored JSON
         cites = {}
         for p in self.mypapers:
