@@ -1,7 +1,7 @@
 {
     "2000ApJS..131..273F": [
         "FLASH: An Adaptive Mesh Hydrodynamics Code for Modeling Astrophysical Thermonuclear Flashes",
-        1254
+        1251
     ],
     "2004PhFl...16.1668D": [
         "A comparative study of the turbulent Rayleigh-Taylor instability using high-resolution three-dimensional numerical simulations: The Alpha-Group collaboration",
@@ -103,12 +103,12 @@
         "White paper on nuclear astrophysics and low energy nuclear physics Part 1: Nuclear astrophysics",
         17
     ],
-    "2014ApJ...788..115M": [
-        "Multidimensional Modeling of Type I X-Ray Bursts. II. Two-dimensional Convection in a Mixed H/He Accretor",
-        16
-    ],
     "2013ApJ...773..137G": [
         "Low Mach Number Modeling of Core Convection in Massive Stars",
+        17
+    ],
+    "2014ApJ...788..115M": [
+        "Multidimensional Modeling of Type I X-Ray Bursts. II. Two-dimensional Convection in a Mixed H/He Accretor",
         16
     ],
     "2005JPhCS..16..405Z": [
@@ -323,10 +323,6 @@
         "Magnetohydrodynamical Wave Support of Interstellar Molecular Clouds.",
         0
     ],
-    "2019BAAS...51g..11B": [
-        "Training the Future Generation of Computational Researchers",
-        0
-    ],
     "2018arXiv180308920W": [
         "pynucastro: an interface to nuclear reaction rates and code generator for reaction network equations",
         0
@@ -359,14 +355,6 @@
         "Modelling rotating massive stars with MAESTROeX",
         0
     ],
-    "2019arXiv190803661Z": [
-        "Improved Coupling of Hydrodynamics and Nuclear Reactions via Spectral Deferred Corrections",
-        0
-    ],
-    "2019arXiv190803634F": [
-        "MAESTROeX: A Massively Parallel Low Mach Number Astrophysical Solver",
-        0
-    ],
     "2019AAS...23338101B": [
         "Explorations on White Dwarf Merger Simulations with Castro",
         0
@@ -381,6 +369,14 @@
     ],
     "2011ascl.soft05010A": [
         "CASTRO: Multi-dimensional Eulerian AMR Radiation-hydrodynamics Code",
+        0
+    ],
+    "2019arXiv190803661Z": [
+        "Improved Coupling of Hydrodynamics and Nuclear Reactions via Spectral Deferred Corrections",
+        0
+    ],
+    "2019arXiv190803634F": [
+        "MAESTROeX: A Massively Parallel Low Mach Number Astrophysical Solver",
         0
     ],
     "2000AAS...197.8103F": [
@@ -419,10 +415,6 @@
         "Starting Models in FLASH for Calculations of Type Ia Supernovae",
         0
     ],
-    "2000CSE.....2...33R": [
-        "Flash Code: Studying Astrophysical Thermonuclear Flashes",
-        0
-    ],
     "2011arXiv1111.2959N": [
         "From Convection to Explosion: End-to-End Simulation of Type Ia Supernovae",
         0
@@ -449,6 +441,10 @@
     ],
     "2000AAS...196.2203C": [
         "FLASH simulations of multi-layer targets",
+        0
+    ],
+    "2000CSE.....2...33R": [
+        "Flash Code: Studying Astrophysical Thermonuclear Flashes",
         0
     ],
     "2000AAS...197.8105D": [
@@ -585,6 +581,10 @@
     ],
     "1999AAS...195.4204F": [
         "Helium Burning on Neutron Stars: 2-dimensional Results",
+        0
+    ],
+    "2019BAAS...51g..11B": [
+        "Training the Future Generation of Computational Researchers",
         0
     ],
     "2019ascl.soft08019F": [
