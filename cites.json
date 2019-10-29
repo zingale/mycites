@@ -1,7 +1,7 @@
 {
     "2000ApJS..131..273F": [
         "FLASH: An Adaptive Mesh Hydrodynamics Code for Modeling Astrophysical Thermonuclear Flashes",
-        1251
+        1253
     ],
     "2004PhFl...16.1668D": [
         "A comparative study of the turbulent Rayleigh-Taylor instability using high-resolution three-dimensional numerical simulations: The Alpha-Group collaboration",
@@ -29,14 +29,14 @@
     ],
     "2002ApJS..143..539Z": [
         "Mapping Initial Hydrostatic Models in Godunov Codes",
-        66
-    ],
-    "2009ApJ...704..196Z": [
-        "Low Mach Number Modeling of Type IA Supernovae. IV. White Dwarf Convection",
-        50
+        67
     ],
     "2004ApJ...602..931A": [
         "On Heavy Element Enrichment in Classical Novae",
+        51
+    ],
+    "2009ApJ...704..196Z": [
+        "Low Mach Number Modeling of Type IA Supernovae. IV. White Dwarf Convection",
         50
     ],
     "2010ApJS..188..358N": [
@@ -121,7 +121,7 @@
     ],
     "2019SCPMA..6229506I": [
         "Observatory science with eXTP",
-        13
+        14
     ],
     "2013ApJ...764...97Z": [
         "Low Mach Number Modeling of Convection in Helium Shells on Sub-Chandrasekhar White Dwarfs. I. Methodology",
@@ -581,6 +581,10 @@
     ],
     "1999AAS...195.4204F": [
         "Helium Burning on Neutron Stars: 2-dimensional Results",
+        0
+    ],
+    "2019arXiv191012578Z": [
+        "The Castro AMR Simulation Code: Current and Future Developments",
         0
     ],
     "2019BAAS...51g..11B": [
