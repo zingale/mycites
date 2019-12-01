@@ -20,6 +20,11 @@ class MyPapers:
 
         self.mypapers = p
 
+        # hack around a bug whereby some papers might have "None" as the number of cites
+        for paper in self.mypapers:
+            if paper.citation_count is None:
+                paper.citation_count = 0
+
         # do some sorting and splitting
         self.refereed = [q for q in self.mypapers if "REFEREED" in q.property]
         self.num = len(self.mypapers)
@@ -55,6 +60,13 @@ class Cites:
     """a class to manage the number of citations of papers"""
     def __init__(self, mypapers):
         # sort account to number of citations
+
+        for p in mypapers:
+            try:
+                int(p.citation_count)
+            except:
+                print("Error with: ", p.bibcode, p.citation_count)
+
         self.mypapers = sorted(mypapers, key=lambda q: q.citation_count, reverse=True)
 
 
