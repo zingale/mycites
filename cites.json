@@ -335,12 +335,12 @@
         "pynucastro: an interface to nuclear reaction rates and code generator for reaction network equations",
         0
     ],
-    "2019BAAS...51c.259Z": [
-        "MMA SAG: Thermonuclear Supernovae",
-        0
-    ],
     "2019AAS...23324529Z": [
         "The Castro Adaptive Mesh Refinement Hydrodynamics Code: Applications, Algorithm Development, and Performance Portability",
+        0
+    ],
+    "2019BAAS...51c.259Z": [
+        "MMA SAG: Thermonuclear Supernovae",
         0
     ],
     "2015ascl.soft07018Z": [
@@ -581,6 +581,10 @@
     ],
     "1999AAS...195.4204F": [
         "Helium Burning on Neutron Stars: 2-dimensional Results",
+        0
+    ],
+    "2019ApJ...886..105Z": [
+        "Improved Coupling of Hydrodynamics and Nuclear Reactions via Spectral Deferred Corrections",
         0
     ],
     "2019arXiv191012979H": [

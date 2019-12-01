@@ -24,6 +24,8 @@ class MyPapers:
         for paper in self.mypapers:
             if paper.citation_count is None:
                 paper.citation_count = 0
+            if paper.property is None:
+                paper.property = []
 
         # do some sorting and splitting
         self.refereed = [q for q in self.mypapers if "REFEREED" in q.property]
