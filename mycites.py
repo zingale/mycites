@@ -36,24 +36,24 @@ class MyPapers:
 
         mystr = ""
         for p in self.mypapers:
-            mystr += "{}\n".format(p.title[0])
+            mystr += f"{p.title[0]}\n"
             if len(p.author) > 12:
-                a = "{} et al. ".format(p.author[0])
+                a = f"{p.author[0]} et al. "
             elif len(p.author) > 2:
-                a = ", ".join(p.author[:-1]) + " & {} ".format(p.author[-1])
+                a = ", ".join(p.author[:-1]) + f" & {p.author[-1]} "
             elif len(p.author) == 2:
-                a = "{} & {} ".format(p.author[0], p.author[1])
+                a = f"{p.author[0]} & {p.author[1]} "
             else:
-                a = "{} ".format(p.author[0])
+                a = f"{p.author[0]} "
 
-            mystr += "{}".format(a)
-            mystr += "{}, {}".format(p.year, p.pub)
+            mystr += f"{a}"
+            mystr += f"{p.year}, {p.pub}"
             if p.volume is not None:
-                mystr += ", {}".format(p.volume)
+                mystr += f", {p.volume}"
             if p.issue is not None:
-                mystr += ", {}".format(p.issue)
+                mystr += f", {p.issue}"
             if p.page is not None:
-                mystr += ", {}".format(p.page[0])
+                mystr += f", {p.page[0]}"
             mystr += "\n\n"
         return mystr
 
@@ -83,7 +83,7 @@ class Cites:
             clean_tags = re.compile("<.*?>")
             title = re.sub(clean_tags, "", p.title[0])
             tt = textwrap.wrap(title, 60)
-            print("{:3} | {:4}   {}".format(n+1, p.citation_count, tt[0]))
+            print(f"{n+1:3} | {p.citation_count:4}   {tt[0]}")
             if len(tt) > 1:
                 for line in tt[1:]:
                     print("{:3} | {:4}   {}".format("", "", line))
@@ -97,10 +97,10 @@ class Cites:
 
         # first read in the old cites
         try:
-            with open("cites.json", "r") as f:
+            with open("cites.json") as f:
                 cites_json = f.read()
             old_cites = json.loads(cites_json)
-        except IOError:
+        except OSError:
             old_cites = {}
 
         num_cites = np.sum(np.array([q.citation_count for q in self.mypapers]))
@@ -110,8 +110,6 @@ class Cites:
         for n, p in enumerate(self.mypapers):
             if p.citation_count > n+1:
                 h_index = n + 1
-            else:
-                exit
         print("h-index = ", h_index)
 
         # now create a dict of the cites and update the stored JSON
@@ -124,14 +122,12 @@ class Cites:
             f.write(cite_json)
 
         # now look for differences in cites
-        for key in cites:
+        for key, value in cites.items():
             if key not in old_cites:
-                print("new paper: {}".format(cites[key][0]))
+                print(f"new paper: {value[0]}")
             else:
-                if cites[key][1] != old_cites[key][1]:
-                    print("change of {:+d} for paper: {}".format(
-                        cites[key][1] - old_cites[key][1],
-                        cites[key][0]))
+                if value[1] != old_cites[key][1]:
+                    print(f"change of {value[1] - old_cites[key][1]:+d} for paper: {value[0]}")
 
 def doit():
     """the main driver -- check out cites"""

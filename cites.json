@@ -1,214 +1,254 @@
 {
     "2000ApJS..131..273F": [
         "FLASH: An Adaptive Mesh Hydrodynamics Code for Modeling Astrophysical Thermonuclear Flashes",
-        1261
+        1485
     ],
     "2004PhFl...16.1668D": [
         "A comparative study of the turbulent Rayleigh-Taylor instability using high-resolution three-dimensional numerical simulations: The Alpha-Group collaboration",
-        205
+        245
     ],
     "2010ApJ...715.1221A": [
         "CASTRO: A New Compressible Astrophysical Solver. I. Hydrodynamics and Self-gravity",
-        142
+        162
     ],
     "2002ApJS..143..201C": [
         "On Validating an Astrophysical Simulation Code",
-        142
-    ],
-    "2004ApJ...601..621R": [
-        "Morphology of Rising Hydrodynamic and Magnetohydrodynamic Bubbles from Numerical Simulations",
-        83
+        150
     ],
     "2005ApJ...632.1021Z": [
         "Three-dimensional Numerical Simulations of Rayleigh-Taylor Unstable Flames in Type Ia Supernovae",
-        81
+        91
     ],
     "2006ApJ...637..922A": [
         "Low Mach Number Modeling of Type Ia Supernovae. I. Hydrodynamics",
-        74
+        86
+    ],
+    "2004ApJ...601..621R": [
+        "Morphology of Rising Hydrodynamic and Magnetohydrodynamic Bubbles from Numerical Simulations",
+        85
     ],
     "2002ApJS..143..539Z": [
         "Mapping Initial Hydrostatic Models in Godunov Codes",
-        67
+        78
     ],
     "2009ApJ...704..196Z": [
         "Low Mach Number Modeling of Type IA Supernovae. IV. White Dwarf Convection",
-        52
-    ],
-    "2004ApJ...602..931A": [
-        "On Heavy Element Enrichment in Classical Novae",
-        51
-    ],
-    "2012ApJ...745...73N": [
-        "High-resolution Simulations of Convection Preceding Ignition in Type Ia Supernovae Using Adaptive Mesh Refinement",
-        46
+        58
     ],
     "2004ApJ...608..883B": [
         "Direct Numerical Simulations of Type Ia Supernovae Flames. II. The Rayleigh-Taylor Instability",
-        46
+        57
+    ],
+    "2004ApJ...602..931A": [
+        "On Heavy Element Enrichment in Classical Novae",
+        53
+    ],
+    "2012ApJ...745...73N": [
+        "High-resolution Simulations of Convection Preceding Ignition in Type Ia Supernovae Using Adaptive Mesh Refinement",
+        53
     ],
     "2010ApJS..188..358N": [
         "MAESTRO: An Adaptive Low Mach Number Hydrodynamics Algorithm for Stellar Flows",
-        45
-    ],
-    "2001ApJS..133..195Z": [
-        "Helium Detonations on Neutron Stars",
-        41
+        53
     ],
     "2004JCoPh.195..677B": [
         "Adaptive low Mach number simulations of nuclear flame microphysics",
-        40
+        43
+    ],
+    "2001ApJS..133..195Z": [
+        "Helium Detonations on Neutron Stars",
+        43
     ],
     "2008ApJ...689.1173A": [
         "Turbulence-Flame Interactions in Type Ia Supernovae",
-        38
+        43
+    ],
+    "2019JOSS....4.1370Z": [
+        "AMReX: a framework for block-structured adaptive mesh refinement",
+        41
     ],
     "2006ApJ...649..927A": [
         "Low Mach Number Modeling of Type Ia Supernovae. II. Energy Evolution",
-        37
+        40
+    ],
+    "2011ApJ...740....8Z": [
+        "The Convective Phase Preceding Type Ia Supernovae",
+        36
+    ],
+    "2008ApJ...684..449A": [
+        "Low Mach Number Modeling of Type Ia Supernovae. III. Reactions",
+        34
     ],
     "2007ApJ...656..333Z": [
         "Propagation of the First Flames in Type Ia Supernovae",
         33
     ],
-    "2011ApJ...740....8Z": [
-        "The Convective Phase Preceding Type Ia Supernovae",
-        31
-    ],
     "2011ApJ...728..118M": [
         "Multidimensional Modeling of Type I X-ray Bursts. I. Two-dimensional Convection Prior to the Outburst of a Pure <SUP>4</SUP>He Accretor",
-        29
-    ],
-    "2008ApJ...684..449A": [
-        "Low Mach Number Modeling of Type Ia Supernovae. III. Reactions",
-        28
-    ],
-    "2014ApJ...782...11M": [
-        "The Deflagration Stage of Chandrasekhar Mass Models for Type Ia Supernovae. I. Early Evolution",
-        25
+        32
     ],
     "2004ApJ...606.1029B": [
         "Direct Numerical Simulations of Type Ia Supernovae Flames. I. The Landau-Darrieus Instability",
+        30
+    ],
+    "2014ApJ...782...11M": [
+        "The Deflagration Stage of Chandrasekhar Mass Models for Type Ia Supernovae. I. Early Evolution",
+        28
+    ],
+    "2019SCPMA..6229506I": [
+        "Observatory science with eXTP",
         25
+    ],
+    "2017PrPNP..94....1A": [
+        "White paper on nuclear astrophysics and low energy nuclear physics Part 1: Nuclear astrophysics",
+        24
     ],
     "2000ApJ...543..938T": [
         "On the Cellular Structure of Carbon Detonations",
-        19
+        21
+    ],
+    "2013ApJ...773..137G": [
+        "Low Mach Number Modeling of Core Convection in Massive Stars",
+        21
+    ],
+    "2014ApJ...788..115M": [
+        "Multidimensional Modeling of Type I X-Ray Bursts. II. Two-dimensional Convection in a Mixed H/He Accretor",
+        20
+    ],
+    "2015ApJ...807...60Z": [
+        "Comparisons of Two- and Three-Dimensional Convection in Type I X-Ray Bursts",
+        20
     ],
     "2003ApJ...595..955D": [
         "The Response of Model and Astrophysical Thermonuclear Flames to Curvature and Stretch",
         19
     ],
-    "2013ApJ...773..137G": [
-        "Low Mach Number Modeling of Core Convection in Massive Stars",
-        18
-    ],
-    "2017PrPNP..94....1A": [
-        "White paper on nuclear astrophysics and low energy nuclear physics Part 1: Nuclear astrophysics",
-        17
-    ],
-    "2014ApJ...788..115M": [
-        "Multidimensional Modeling of Type I X-Ray Bursts. II. Two-dimensional Convection in a Mixed H/He Accretor",
-        17
-    ],
-    "2015ApJ...807...60Z": [
-        "Comparisons of Two- and Three-Dimensional Convection in Type I X-Ray Bursts",
-        16
+    "2016ApJ...819...94K": [
+        "White Dwarf Mergers on Adaptive Meshes. I. Methodology and Code Verification",
+        19
     ],
     "2005JPhCS..16..405Z": [
         "The physics of flames in Type Ia supernovae",
         16
     ],
-    "2019SCPMA..6229506I": [
-        "Observatory science with eXTP",
-        14
-    ],
     "2013ApJ...764...97Z": [
         "Low Mach Number Modeling of Convection in Helium Shells on Sub-Chandrasekhar White Dwarfs. I. Methodology",
-        14
+        15
     ],
-    "2016ApJ...819...94K": [
-        "White Dwarf Mergers on Adaptive Meshes. I. Methodology and Code Verification",
-        12
+    "2016ApJ...827...84J": [
+        "Low Mach Number Modeling of Convection in Helium Shells on Sub-Chandrasekhar White Dwarfs. II. Bulk Properties of Simple Models",
+        14
     ],
     "1999AAS...195.4203O": [
         "PARAMESH: A Parallel, Adaptive Mesh Refinement Toolkit and Performance of the ASCI/FLASH code",
-        12
+        13
+    ],
+    "2015arXiv150102776I": [
+        "The LOFT perspective on neutron star thermonuclear bursts",
+        11
     ],
     "2004PhFl...16.3256A": [
         "On the nonlinear evolution of wind-driven gravity waves",
         11
     ],
-    "2016ApJ...827...84J": [
-        "Low Mach Number Modeling of Convection in Helium Shells on Sub-Chandrasekhar White Dwarfs. II. Bulk Properties of Simple Models",
+    "2010ascl.soft10082F": [
+        "FLASH: Adaptive Mesh Hydrodynamics Code for Modeling Astrophysical Thermonuclear Flashes",
+        10
+    ],
+    "2019BAAS...51c...2T": [
+        "Catching Element Formation In The Act ; The Case for a New MeV Gamma-Ray Mission: Radionuclide Astronomy in the 2020s",
+        10
+    ],
+    "2019ApJ...874..169K": [
+        "Numerical Stability of Detonations in White Dwarf Simulations",
+        10
+    ],
+    "2016SPIE.9905E..1RF": [
+        "The LOFT mission concept: a status update",
         10
     ],
     "2002AIPC..637..134C": [
         "Mixing by Non-linear Gravity Wave Breaking on a White Dwarf Surface",
         10
     ],
-    "2015arXiv150102776I": [
-        "The LOFT perspective on neutron star thermonuclear bursts",
+    "2010arXiv1008.2801A": [
+        "MAESTRO, CASTRO, and SEDONA -- Petascale Codes for Astrophysical Applications",
         9
     ],
     "2007JPhCS..78a2081W": [
         "Type Ia supernovae",
         8
     ],
-    "2010arXiv1008.2801A": [
-        "MAESTRO, CASTRO, and SEDONA -- Petascale Codes for Astrophysical Applications",
+    "2018JPhCS1031a2024Z": [
+        "Meeting the Challenges of Modeling Astrophysical Thermonuclear Explosions: Castro, Maestro, and the AMReX Astrophysics Suite",
         8
-    ],
-    "2019BAAS...51c...2T": [
-        "Catching Element Formation In The Act ; The Case for a New MeV Gamma-Ray Mission: Radionuclide Astronomy in the 2020s",
-        7
     ],
     "2016arXiv160302213A": [
         "White Paper on Nuclear Astrophysics",
         7
     ],
-    "2010ascl.soft10082F": [
-        "FLASH: Adaptive Mesh Hydrodynamics Code for Modeling Astrophysical Thermonuclear Flashes",
-        6
-    ],
-    "2019ApJ...874..169K": [
-        "Numerical Stability of Detonations in White Dwarf Simulations",
-        5
+    "2019ApJ...887..212F": [
+        "MAESTROeX: A Massively Parallel Low Mach Number Astrophysical Solver",
+        7
     ],
     "2015ApJS..216...31Z": [
         "On the Piecewise Parabolic Method for Compressible Flow With Stellar Equations of State",
-        5
+        7
+    ],
+    "2004CSE.....6e..10C": [
+        "Validating astrophysical simulation codes",
+        6
     ],
     "2007JPhCS..78a2085A": [
         "MAESTRO: A Low Mach Number Stellar Hydrodynamics Code",
+        5
+    ],
+    "2019ApJ...886..105Z": [
+        "Improved Coupling of Hydrodynamics and Nuclear Reactions via Spectral Deferred Corrections",
         5
     ],
     "2006JPhCS..46..385Z": [
         "New approaches for modeling Type Ia supernovae",
         5
     ],
-    "2019JOSS....4.1370Z": [
-        "AMReX: a framework for block-structured adaptive mesh refinement",
-        5
-    ],
-    "2016SPIE.9905E..1RF": [
-        "The LOFT mission concept: a status update",
-        4
-    ],
     "2000AAS...197.8106R": [
         "Pre-nova Mixing at the Surface of White Dwarfs",
+        4
+    ],
+    "2019JPhCS1225a2005Z": [
+        "Toward Resolved Simulations of Burning Fronts in Thermonuclear X-ray Bursts",
+        4
+    ],
+    "2000CSE.....2b..33R": [
+        "Flash code: studying astrophysical thermonuclear flashes",
         4
     ],
     "2002AIPC..637..139D": [
         "Onset of Convection on a Pre-Runaway White Dwarf",
         4
     ],
-    "2018JPhCS1031a2024Z": [
-        "Meeting the Challenges of Modeling Astrophysical Thermonuclear Explosions: Castro, Maestro, and the AMReX Astrophysics Suite",
+    "2009CSE....11...24A": [
+        "A New Low Mach Number Approach in Astrophysics",
         3
     ],
     "2001AIPC..586..490Z": [
         "Quenching processes in flame-vortex interactions",
+        3
+    ],
+    "2020JOSS....5.2513A": [
+        "CASTRO: A Massively Parallel Compressible Astrophysics Simulation Code",
+        3
+    ],
+    "2020ApJ...894....6E": [
+        "Dynamics of Laterally Propagating Flames in X-Ray Bursts. I. Burning Front Structure",
+        3
+    ],
+    "2019JOSS....4.1757F": [
+        "MAESTROeX: A Massively Parallel Low Mach Number Astrophysical Solver",
+        3
+    ],
+    "2018MNRAS.481.5517R": [
+        "Turbulence-driven thermal and kinetic energy fluxes in the atmospheres of hot Jupiters",
         3
     ],
     "2003ASPC..293..329Z": [
@@ -219,100 +259,40 @@
         "pyro: A teaching code for computational astrophysical hydrodynamics",
         2
     ],
-    "2016arXiv160602242Z": [
-        "The Importance of Computation in Astronomy Education",
-        2
-    ],
-    "2019arXiv190803661Z": [
-        "Improved Coupling of Hydrodynamics and Nuclear Reactions via Spectral Deferred Corrections",
-        2
-    ],
-    "2019arXiv190803634F": [
-        "MAESTROeX: A Massively Parallel Low Mach Number Astrophysical Solver",
-        2
-    ],
-    "2001AIPC..583..316R": [
-        "Large-scale simulations of clusters of galaxies",
-        2
-    ],
-    "2009CSE....11...24A": [
-        "A New Low Mach Number Approach in Astrophysics",
-        2
-    ],
     "2008JPhCS.125a2013Z": [
         "Astrophysical applications of the MAESTRO code",
+        2
+    ],
+    "2018JOSS....3..588E": [
+        "pynucastro: an interface to nuclear reaction rates and code generator for reaction network equations",
         2
     ],
     "2001NuPhA.688..172F": [
         "Numerical simulations of thermonuclear flashes on neutron stars",
         2
     ],
-    "2003astro.ph.10891D": [
-        "Efficiency Gains from Time Refinement on AMR Meshes and Explicit Timestepping",
-        2
-    ],
     "2000sc00.conf.....C": [
         "High-Performance Reactive Fluid Flow Simulations Using Adaptive Mesh Refinement on Thousands of Processors",
         2
     ],
-    "2004CSE.....6e..10C": [
-        "Validating astrophysical simulation codes",
+    "2003astro.ph.10891D": [
+        "Efficiency Gains from Time Refinement on AMR Meshes and Explicit Timestepping",
         2
     ],
-    "2000CSE.....2b..33R": [
-        "Flash code: studying astrophysical thermonuclear flashes",
+    "2016arXiv160602242Z": [
+        "The Importance of Computation in Astronomy Education",
         2
     ],
-    "2019zndo...3358046t": [
-        "AMReX-Codes/amrex: AMReX 19.08",
-        1
+    "2001AIPC..583..316R": [
+        "Large-scale simulations of clusters of galaxies",
+        2
     ],
-    "2019zndo...3359184t": [
-        "AMReX-Astro/Castro: Castro 19.08.1",
-        1
-    ],
-    "2019zndo...3357970t": [
-        "starkiller-astro/Microphysics: StarKiller Microphysics 19.08",
-        1
-    ],
-    "2019zndo...2656476t": [
-        "starkiller-astro/Microphysics: Microphysics 19.05",
-        1
-    ],
-    "2019zndo...2555438t": [
-        "AMReX-Codes/amrex: AMReX 19.11",
-        1
-    ],
-    "2018MNRAS.481.5517R": [
-        "Turbulence-driven thermal and kinetic energy fluxes in the atmospheres of hot Jupiters",
-        1
-    ],
-    "2019JPhCS1225a2005Z": [
-        "Toward Resolved Simulations of Burning Fronts in Thermonuclear X-ray Bursts",
-        1
-    ],
-    "2019JOSS....4.1265H": [
-        "pyro: a framework for hydrodynamics explorations and prototyping",
+    "2020zndo...3633773T": [
+        "starkiller-astro/Microphysics: Microphysics 20.02",
         1
     ],
     "2009JPhCS.180a2023W": [
         "Type Ia supernovae: Advances in large scale simulation",
-        1
-    ],
-    "2001AIPC..586..484C": [
-        "Simulations of Astrophysical fluid instabilities",
-        1
-    ],
-    "2018JOSS....3..588E": [
-        "pynucastro: an interface to nuclear reaction rates and code generator for reaction network equations",
-        1
-    ],
-    "2001AAS...19910016R": [
-        "Gas Stripping, Turbulence, and Wake Formation in Cluster Mergers",
-        1
-    ],
-    "2001AIPC..583..223F": [
-        "Adaptive mesh simulations of astrophysical detonations using the ASCI flash code",
         1
     ],
     "2008AAS...212.1605N": [
@@ -323,32 +303,64 @@
         "Investigations of Pointwise Ignition of Helium Deflagrations on Neutron Stars",
         1
     ],
+    "2001AIPC..583..223F": [
+        "Adaptive mesh simulations of astrophysical detonations using the ASCI flash code",
+        1
+    ],
+    "2001AAS...19910016R": [
+        "Gas Stripping, Turbulence, and Wake Formation in Cluster Mergers",
+        1
+    ],
+    "2020arXiv200705218K": [
+        "Preparing Nuclear Astrophysics for Exascale",
+        1
+    ],
     "2019JPhCS1225a2002C": [
         "Thermonuclear (Type Ia) Supernovae and Progenitor Evolution",
+        1
+    ],
+    "2019JOSS....4.1265H": [
+        "pyro: a framework for hydrodynamics explorations and prototyping",
+        1
+    ],
+    "2001AIPC..586..484C": [
+        "Simulations of Astrophysical fluid instabilities",
+        1
+    ],
+    "2019zndo...2555438T": [
+        "AMReX-Codes/amrex: AMReX 21.07",
+        0
+    ],
+    "2019zndo...3359184T": [
+        "AMReX-Astro/Castro: Castro 19.08.1",
+        0
+    ],
+    "2019zndo...2656476T": [
+        "starkiller-astro/Microphysics: Microphysics 19.05",
+        0
+    ],
+    "2019zndo...3358046T": [
+        "AMReX-Codes/amrex: AMReX 19.08",
+        0
+    ],
+    "2019zndo...3357970T": [
+        "starkiller-astro/Microphysics: StarKiller Microphysics 19.08",
+        0
+    ],
+    "2019zndo...2620545T": [
+        "starkiller-astro/Microphysics: 19.04",
+        0
+    ],
+    "2000APS..DFD.BE002W": [
+        "Characterization of Numerical Dissipation of PPM and WENO Schemes",
         0
     ],
     "1996APS..MAY.A1001Z": [
         "Magnetohydrodynamical Wave Support of Interstellar Molecular Clouds.",
         0
     ],
-    "2018arXiv180308920W": [
-        "pynucastro: an interface to nuclear reaction rates and code generator for reaction network equations",
-        0
-    ],
-    "2019AAS...23324529Z": [
-        "The Castro Adaptive Mesh Refinement Hydrodynamics Code: Applications, Algorithm Development, and Performance Portability",
-        0
-    ],
-    "2019BAAS...51c.259Z": [
-        "MMA SAG: Thermonuclear Supernovae",
-        0
-    ],
-    "2015ascl.soft07018Z": [
-        "pyro: Python-based tutorial for computational methods for hydrodynamics",
-        0
-    ],
-    "2017AAS...22924405W": [
-        "Three-Dimensional Simulations of the Convective Urca Process in Pre-Supernova White Dwarfs",
+    "2014AAS...22412101O": [
+        "Low Mach Number Simulations of Nuclear Flames Using Spectral Deferred Corrections",
         0
     ],
     "2017AAS...22923612Z": [
@@ -359,172 +371,60 @@
         "Black Widow Pulsar radiation hydrodynamics simulation using Castro: Methodology",
         0
     ],
-    "2019AAS...23324528H": [
-        "Modelling rotating massive stars with MAESTROeX",
-        0
-    ],
-    "2019AAS...23338101B": [
-        "Explorations on White Dwarf Merger Simulations with Castro",
-        0
-    ],
-    "2019AAS...23324527F": [
-        "The MAESTROeX low Mach number stellar hydrodynamics code",
-        0
-    ],
-    "2011ascl.soft05010A": [
-        "CASTRO: Multi-dimensional Eulerian AMR Radiation-hydrodynamics Code",
-        0
-    ],
-    "2015arXiv151005061Z": [
-        "Modeling Astrophysical Explosions with Sustained Exascale Computing",
-        0
-    ],
-    "2000AAS...197.8103F": [
-        "The Structure of Carbon Detonation in Type Ia Supernovae",
-        0
-    ],
-    "2015AAS...22510403J": [
-        "Helium Shells on Sub-Chandrasekhar White Dwarfs: Ignition and Convection",
-        0
-    ],
-    "2012AAS...21921104K": [
-        "Low Mach Number Simulations of Classical Novae",
-        0
-    ],
-    "2010ascl.soft10044N": [
-        "MAESTRO: An Adaptive Low Mach Number Hydrodynamics Algorithm for Stellar Flows",
-        0
-    ],
-    "2003HEAD....7.1810L": [
-        "Starting Models in FLASH for Calculations of Type Ia Supernovae",
-        0
-    ],
-    "1999AAS...195.4205R": [
-        "FLASH: A Multidimensional Hydrodynamics Code for Modeling Astrophysical Thermonuclear Flashes",
-        0
-    ],
-    "2019AAS...23345705W": [
-        "Visualizing Nuclear Reaction Rates and Constructing Networks with pynucastro",
-        0
-    ],
-    "2018CSE....20d..95C": [
-        "Best Practices in Running Collaborative GPU Hackathons: Advancing Scientific Applications with a Sustained Impact",
-        0
-    ],
-    "2011arXiv1111.2959N": [
-        "From Convection to Explosion: End-to-End Simulation of Type Ia Supernovae",
+    "2017AAS...22924405W": [
+        "Three-Dimensional Simulations of the Convective Urca Process in Pre-Supernova White Dwarfs",
         0
     ],
     "2015fvca.conf....3A": [
         "Low Mach Number Modeling of Stratified Flows",
         0
     ],
-    "2010AAS...21547402Z": [
-        "White Dwarf Convection Preceding Type Ia Supernovae",
+    "2015ascl.soft07018Z": [
+        "pyro: Python-based tutorial for computational methods for hydrodynamics",
         0
     ],
-    "2000AAS...197.8102C": [
-        "Mixing in Rayleigh-Taylor Instabilities",
-        0
-    ],
-    "2000AAS...197.4213R": [
-        "The Structure of Self-Gravitating Hydrodynamic Turbulence",
-        0
-    ],
-    "2000AAS...196.2203C": [
-        "FLASH simulations of multi-layer targets",
-        0
-    ],
-    "2000CSE.....2...33R": [
-        "Flash Code: Studying Astrophysical Thermonuclear Flashes",
-        0
-    ],
-    "2014AAS...22412101O": [
-        "Low Mach Number Simulations of Nuclear Flames Using Spectral Deferred Corrections",
+    "2015AAS...22510403J": [
+        "Helium Shells on Sub-Chandrasekhar White Dwarfs: Ignition and Convection",
         0
     ],
     "2013AAS...22144402M": [
         "From Convection to Ignition and Beyond: A (Computational) Story of M<SUP>Ch</SUP> SNIa",
         0
     ],
-    "2000AAS...197.8105D": [
-        "Simulating Thermonuclear Runaway in Novae",
-        0
-    ],
-    "1999AAS...195.4202D": [
-        "Compressed Reactive Turbulence and Supernovae Ia Recollapse using the FLASH code",
-        0
-    ],
-    "2000APS..DFD.BE002W": [
-        "Characterization of Numerical Dissipation of PPM and WENO Schemes",
-        0
-    ],
     "2013AAS...22125321K": [
         "Double White Dwarf Mergers with CASTRO",
-        0
-    ],
-    "2011AAS...21723403M": [
-        "Multidimensional Simulations of Convection Preceding Type I X-ray Bursts",
-        0
-    ],
-    "2010AAS...21547403M": [
-        "Convection from Burning Preceding a Type I X-ray Burst",
-        0
-    ],
-    "2003HEAD....7.1808A": [
-        "Shear mixing in classical Novae",
-        0
-    ],
-    "2002nuas.conf..186T": [
-        "Mixing by wave breaking at the surface of a white dwarf",
-        0
-    ],
-    "2001AAS...199.6213D": [
-        "Initiation of Convection in a Classical Nova Precursor",
-        0
-    ],
-    "2001AAS...199.4706C": [
-        "Multidimensional Simulations of Type Ia Supernovae",
-        0
-    ],
-    "2000nuas.conf...38F": [
-        "Helium Detonations on Neutron Stars",
-        0
-    ],
-    "2003HEAD....7.1802C": [
-        "Progress in Modeling Classical Nova Outbursts",
-        0
-    ],
-    "2003HEAD....7.1803D": [
-        "Microphysics of Astrophysical Flames",
-        0
-    ],
-    "2003AAS...20312504A": [
-        "On Heavy Element Enrichment in Classical Novae",
-        0
-    ],
-    "2000APS..DPPBP1078C": [
-        "Astrophysically Relevant Instabilities at a Decelerating Interface.",
-        0
-    ],
-    "2000AAS...196.3902F": [
-        "The Cellular Structure of Carbon Detonations",
-        0
-    ],
-    "1999AAS...195.4201Z": [
-        "Direct Simulations of Thermonuclear Flames with the FLASH Code",
-        0
-    ],
-    "2006AAS...20915018D": [
-        "Propagation of the First Flames in Type Ia Supernovae",
         0
     ],
     "2013AAS...22124014O": [
         "Exploring the Effects of Large Networks on Evolution in Low Mach Number Flows",
         0
     ],
+    "2012AAS...21921104K": [
+        "Low Mach Number Simulations of Classical Novae",
+        0
+    ],
+    "2011ascl.soft05010A": [
+        "CASTRO: Multi-dimensional Eulerian AMR Radiation-hydrodynamics Code",
+        0
+    ],
+    "2011AAS...21723403M": [
+        "Multidimensional Simulations of Convection Preceding Type I X-ray Bursts",
+        0
+    ],
+    "2010ascl.soft10044N": [
+        "MAESTRO: An Adaptive Low Mach Number Hydrodynamics Algorithm for Stellar Flows",
+        0
+    ],
     "2010AAS...21547401N": [
         "MAESTRO: An Adaptive Low Mach Number Hydrodynamics Algorithm for Stellar Flows",
+        0
+    ],
+    "2010AAS...21547403M": [
+        "Convection from Burning Preceding a Type I X-ray Burst",
+        0
+    ],
+    "2010AAS...21547402Z": [
+        "White Dwarf Convection Preceding Type Ia Supernovae",
         0
     ],
     "2010AAS...21547404A": [
@@ -547,6 +447,14 @@
         "Simulations of Rising Hydrodynamic and Magnetohydrodynamic Bubbles",
         0
     ],
+    "2003HEAD....7.1810L": [
+        "Starting Models in FLASH for Calculations of Type Ia Supernovae",
+        0
+    ],
+    "2003HEAD....7.1808A": [
+        "Shear mixing in classical Novae",
+        0
+    ],
     "2003AAS...20312502D": [
         "Microphysical Effects on the Instabilities of Astrophysical Flames",
         0
@@ -555,8 +463,20 @@
         "Direct Numerical Simulations of Flame Instabilities in Type Ia Supernovae",
         0
     ],
+    "2002nuas.conf..186T": [
+        "Mixing by wave breaking at the surface of a white dwarf",
+        0
+    ],
     "2002AAS...200.9502D": [
         "Convection and Mixing in Classical Novae Precursors",
+        0
+    ],
+    "2001AAS...199.6213D": [
+        "Initiation of Convection in a Classical Nova Precursor",
+        0
+    ],
+    "2001AAS...199.4706C": [
+        "Multidimensional Simulations of Type Ia Supernovae",
         0
     ],
     "2001AAS...198.6401C": [
@@ -567,32 +487,112 @@
         "Helium detonations on neutron stars",
         0
     ],
+    "2000nuas.conf...38F": [
+        "Helium Detonations on Neutron Stars",
+        0
+    ],
+    "2003HEAD....7.1802C": [
+        "Progress in Modeling Classical Nova Outbursts",
+        0
+    ],
+    "2003HEAD....7.1803D": [
+        "Microphysics of Astrophysical Flames",
+        0
+    ],
+    "2003AAS...20312504A": [
+        "On Heavy Element Enrichment in Classical Novae",
+        0
+    ],
     "2000arxt.confE..67Z": [
         "2-dimensional Helium Detonations on the Surface of Neutron Stars",
+        0
+    ],
+    "2000APS..DPPBP1078C": [
+        "Astrophysically Relevant Instabilities at a Decelerating Interface.",
+        0
+    ],
+    "2000AAS...197.8105D": [
+        "Simulating Thermonuclear Runaway in Novae",
+        0
+    ],
+    "2000AAS...197.8102C": [
+        "Mixing in Rayleigh-Taylor Instabilities",
+        0
+    ],
+    "2000AAS...197.4213R": [
+        "The Structure of Self-Gravitating Hydrodynamic Turbulence",
         0
     ],
     "2000AAS...197.8104Z": [
         "Thermonuclear Quenching in Flame-Vortex Interactions",
         0
     ],
+    "2000AAS...197.8103F": [
+        "The Structure of Carbon Detonation in Type Ia Supernovae",
+        0
+    ],
+    "2000AAS...196.3902F": [
+        "The Cellular Structure of Carbon Detonations",
+        0
+    ],
+    "2000AAS...196.2203C": [
+        "FLASH simulations of multi-layer targets",
+        0
+    ],
     "2000AAS...196.1703Z": [
         "Helium Detonations on Neutron Stars",
+        0
+    ],
+    "1999AAS...195.4205R": [
+        "FLASH: A Multidimensional Hydrodynamics Code for Modeling Astrophysical Thermonuclear Flashes",
         0
     ],
     "1999AAS...195.4204F": [
         "Helium Burning on Neutron Stars: 2-dimensional Results",
         0
     ],
-    "2019ApJ...886..105Z": [
-        "Improved Coupling of Hydrodynamics and Nuclear Reactions via Spectral Deferred Corrections",
+    "1999AAS...195.4201Z": [
+        "Direct Simulations of Thermonuclear Flames with the FLASH Code",
         0
     ],
-    "2019arXiv191012979H": [
+    "1999AAS...195.4202D": [
+        "Compressed Reactive Turbulence and Supernovae Ia Recollapse using the FLASH code",
+        0
+    ],
+    "2021ApJ...912...36H": [
+        "Dynamics of Laterally Propagating Flames in X-Ray Bursts. II. Realistic Burning and Rotation",
+        0
+    ],
+    "2021RNAAS...5...71Z": [
+        "Practical Effects of Integrating Temperature with Strang Split Reactions",
+        0
+    ],
+    "2021AAS...23712708Z": [
+        "Improved Coupling of Hydro and Reactions Using Spectral Deferred Corrections",
+        0
+    ],
+    "2021AAS...23715205F": [
+        "Dynamics of Laterally Propagating Flames in X-ray Bursts. II. Realistic Burning &amp; Rotation",
+        0
+    ],
+    "2020JPhCS1623a2015H": [
         "Modelling low Mach number stellar hydrodynamics with MAESTROeX",
         0
     ],
-    "2019arXiv191012578Z": [
+    "2020JPhCS1623a2021Z": [
         "The Castro AMR Simulation Code: Current and Future Developments",
+        0
+    ],
+    "2020AAS...23521803E": [
+        "Propagation of Thermonuclear Flame Fronts in Type I X-ray Bursts",
+        0
+    ],
+    "2019AAS...23324529Z": [
+        "The Castro Adaptive Mesh Refinement Hydrodynamics Code: Applications, Algorithm Development, and Performance Portability",
+        0
+    ],
+    "2019AAS...23324528H": [
+        "Modelling rotating massive stars with MAESTROeX",
         0
     ],
     "2019BAAS...51g..11B": [
@@ -601,6 +601,46 @@
     ],
     "2019ascl.soft08019F": [
         "MAESTROeX: Low Mach number stellar hydrodynamics code",
+        0
+    ],
+    "2019BAAS...51c.259Z": [
+        "MMA SAG: Thermonuclear Supernovae",
+        0
+    ],
+    "2019AAS...23345705W": [
+        "Visualizing Nuclear Reaction Rates and Constructing Networks with pynucastro",
+        0
+    ],
+    "2019AAS...23338101B": [
+        "Explorations on White Dwarf Merger Simulations with Castro",
+        0
+    ],
+    "2019AAS...23324527F": [
+        "The MAESTROeX low Mach number stellar hydrodynamics code",
+        0
+    ],
+    "2018CSE....20d..95C": [
+        "Best Practices in Running Collaborative GPU Hackathons: Advancing Scientific Applications with a Sustained Impact",
+        0
+    ],
+    "2018arXiv180308920W": [
+        "pynucastro: an interface to nuclear reaction rates and code generator for reaction network equations",
+        0
+    ],
+    "2006AAS...20915018D": [
+        "Propagation of the First Flames in Type Ia Supernovae",
+        0
+    ],
+    "2000CSE.....2...33R": [
+        "Flash Code: Studying Astrophysical Thermonuclear Flashes",
+        0
+    ],
+    "2015arXiv151005061Z": [
+        "Modeling Astrophysical Explosions with Sustained Exascale Computing",
+        0
+    ],
+    "2011arXiv1111.2959N": [
+        "From Convection to Explosion: End-to-End Simulation of Type Ia Supernovae",
         0
     ]
 }
