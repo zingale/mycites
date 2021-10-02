@@ -1,15 +1,15 @@
 {
     "2000ApJS..131..273F": [
         "FLASH: An Adaptive Mesh Hydrodynamics Code for Modeling Astrophysical Thermonuclear Flashes",
-        1485
+        1487
     ],
     "2004PhFl...16.1668D": [
         "A comparative study of the turbulent Rayleigh-Taylor instability using high-resolution three-dimensional numerical simulations: The Alpha-Group collaboration",
-        245
+        246
     ],
     "2010ApJ...715.1221A": [
         "CASTRO: A New Compressible Astrophysical Solver. I. Hydrodynamics and Self-gravity",
-        162
+        163
     ],
     "2002ApJS..143..201C": [
         "On Validating an Astrophysical Simulation Code",
@@ -65,7 +65,7 @@
     ],
     "2019JOSS....4.1370Z": [
         "AMReX: a framework for block-structured adaptive mesh refinement",
-        41
+        42
     ],
     "2006ApJ...649..927A": [
         "Low Mach Number Modeling of Type Ia Supernovae. II. Energy Evolution",
@@ -101,7 +101,7 @@
     ],
     "2017PrPNP..94....1A": [
         "White paper on nuclear astrophysics and low energy nuclear physics Part 1: Nuclear astrophysics",
-        24
+        25
     ],
     "2000ApJ...543..938T": [
         "On the Cellular Structure of Carbon Detonations",
@@ -115,16 +115,16 @@
         "Multidimensional Modeling of Type I X-Ray Bursts. II. Two-dimensional Convection in a Mixed H/He Accretor",
         20
     ],
+    "2016ApJ...819...94K": [
+        "White Dwarf Mergers on Adaptive Meshes. I. Methodology and Code Verification",
+        20
+    ],
     "2015ApJ...807...60Z": [
         "Comparisons of Two- and Three-Dimensional Convection in Type I X-Ray Bursts",
         20
     ],
     "2003ApJ...595..955D": [
         "The Response of Model and Astrophysical Thermonuclear Flames to Curvature and Stretch",
-        19
-    ],
-    "2016ApJ...819...94K": [
-        "White Dwarf Mergers on Adaptive Meshes. I. Methodology and Code Verification",
         19
     ],
     "2005JPhCS..16..405Z": [

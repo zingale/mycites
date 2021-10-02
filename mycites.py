@@ -108,7 +108,7 @@ class Cites:
 
         h_index = 0
         for n, p in enumerate(self.mypapers):
-            if p.citation_count > n+1:
+            if p.citation_count >= n+1:
                 h_index = n + 1
         print("h-index = ", h_index)
 
