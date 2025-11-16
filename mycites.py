@@ -1,11 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import json
-import re
-import textwrap
 
 import ads
-import numpy as np
+
 
 class MyPapers:
     """a class to manage searching for my publications from ADS"""
@@ -66,28 +64,10 @@ class Cites:
         for p in mypapers:
             try:
                 int(p.citation_count)
-            except:
+            except ValueError:
                 print("Error with: ", p.bibcode, p.citation_count)
 
         self.mypapers = sorted(mypapers, key=lambda q: q.citation_count, reverse=True)
-
-
-    def cite_report(self):
-        """generate a table, ordered by cites, of the papers with number of
-        cites"""
-
-        num_cites = np.sum(np.array([q.citation_count for q in self.mypapers]))
-        print("number of citations = ", num_cites)
-
-        for n, p in enumerate(self.mypapers):
-            clean_tags = re.compile("<.*?>")
-            title = re.sub(clean_tags, "", p.title[0])
-            tt = textwrap.wrap(title, 60)
-            print(f"{n+1:3} | {p.citation_count:4}   {tt[0]}")
-            if len(tt) > 1:
-                for line in tt[1:]:
-                    print("{:3} | {:4}   {}".format("", "", line))
-            print("{:3} | {:4}   {}".format("", "", ""))
 
     def compare_and_update(self):
         """this will read the old cite numbers from the stored JSON file and
@@ -103,7 +83,7 @@ class Cites:
         except OSError:
             old_cites = {}
 
-        num_cites = np.sum(np.array([q.citation_count for q in self.mypapers]))
+        num_cites = sum(q.citation_count for q in self.mypapers)
         print("number of citations = ", num_cites)
 
         h_index = 0
@@ -125,16 +105,16 @@ class Cites:
         for key, value in cites.items():
             if key not in old_cites:
                 print(f"new paper: {value[0]}")
-            else:
-                if value[1] != old_cites[key][1]:
-                    print(f"change of {value[1] - old_cites[key][1]:+d} for paper: {value[0]}")
+            elif value[1] != old_cites[key][1]:
+                print(f"change of {value[1] - old_cites[key][1]:+d} for paper: {value[0]}")
+
 
 def doit():
     """the main driver -- check out cites"""
     myp = MyPapers()
     cites = Cites(myp.mypapers)
-    #cites.cite_report()
     cites.compare_and_update()
+
 
 if __name__ == "__main__":
     doit()
