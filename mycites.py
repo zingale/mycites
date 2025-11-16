@@ -3,20 +3,35 @@
 import json
 import re
 import textwrap
+import time
 
 import ads
 import numpy as np
+
+from requests.exceptions import ConnectionError
 
 class MyPapers:
     """a class to manage searching for my publications from ADS"""
 
     def __init__(self):
-        p = list(ads.SearchQuery(author="Zingale, M",
-                                 max_pages=10,
-                                 fl=["id", "bibcode", "citation_count",
-                                     "author", "pub", "volume",
-                                     "issue", "page", "year",
-                                     "title", "property", "authors"]))
+
+        try:
+            p = list(ads.SearchQuery(author="Zingale, M",
+                                     max_pages=10,
+                                     fl=["id", "bibcode", "citation_count",
+                                         "author", "pub", "volume",
+                                         "issue", "page", "year",
+                                         "title", "property", "authors"]))
+
+        except ConnectionError:
+            # sometimes there's a name server issue, so try again
+            time.sleep(5)
+            p = list(ads.SearchQuery(author="Zingale, M",
+                                     max_pages=10,
+                                     fl=["id", "bibcode", "citation_count",
+                                         "author", "pub", "volume",
+                                         "issue", "page", "year",
+                                         "title", "property", "authors"]))
 
         self.mypapers = p
 
